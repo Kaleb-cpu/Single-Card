@@ -11,11 +11,12 @@ img{
 body{
   background-color: #21e3e3;
   font-size: 18px;
+  margin-left: 1em;
 }
 article{
-  width: 500px;
+  max-width: 500px;
   margin: auto;
-  float: right;
+  /* float: right; */
 }
 .card{
   border-radius: 10px;
