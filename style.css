@@ -34,9 +34,7 @@ article{
   box-shadow: red;
   transform: scale(1.1);
 }
-figure:hover img{
-  background-color: blue;
-}
+
 p,h3,h4{
   text-align: left;
   padding-left: 10px;
