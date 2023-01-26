@@ -1,3 +1,5 @@
+/* Box Model */
+
 *{
   margin: 0;
   padding: 0;
@@ -8,16 +10,32 @@ img{
   display: block;
   border-radius: 10px;
 }
+article{
+  margin: auto;
+  max-width: 500px;
+}
+p,h3,h4{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+/* Body typography and color */
+
 body{
   background-color: #21e3e3;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.5;
   margin-left: 1em;
+  font-family: 'Source Sans Pro', Verdana, Geneva, sans-serif;
 }
-article{
-  max-width: 500px;
-  margin: auto;
-  /* float: right; */
+h3,h4{
+  font-family: 'Carter One', Verdana, Geneva, sans-serif;
+  color: red;
+  color: red;
 }
+/* Card dimensions and effects */
+
 .card{
   border-radius: 10px;
   box-shadow: 0 4px 8px 0; color: #ab0808;
@@ -25,30 +43,13 @@ article{
   width: 400px;
   background-color: beige;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
   float: left;
   margin-top: 50px;
 }
 .card:hover{
-  background-color: yellowgreen;
+  background-color: orange;
   box-shadow: red;
   transform: scale(1.1);
-}
-
-p,h3,h4{
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-p{
-  /* border: 0px solid white; */
-  /* padding-top: 20px;*/
-  padding-bottom: 20px;
-}
-h3,h4{
-  font-family: 'Carter One', cursive;
-  color: red;
-  color: red;
 }
 a{
   color: #ab0808;
